@@ -315,8 +315,5 @@ def get_photo(message):
       style_img_bot = io.BytesIO()
     else:
       bot.reply_to(message, "Направлена картинка для изменения, выберите картинку для стиля")
-
-bot.add_custom_filter(custom_filters.TextMatchFilter())
     
-
 bot.infinity_polling()
