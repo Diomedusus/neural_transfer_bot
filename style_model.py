@@ -265,7 +265,7 @@ from telebot.async_telebot import AsyncTeleBot
 import io
 import asyncio
 
-bot = telebot.TeleBot("5908971102:AAFeOYXR6vIRbxJLsHxB2j6PdxdjWj2XK1g")
+bot = telebot.TeleBot("YourTOKEN")
 content_img_bot = io.BytesIO()
 style_img_bot = io.BytesIO()
 
@@ -320,5 +320,3 @@ bot.add_custom_filter(custom_filters.TextMatchFilter())
     
 
 bot.infinity_polling()
-
-    #"5908971102:AAFeOYXR6vIRbxJLsHxB2j6PdxdjWj2XK1g")
