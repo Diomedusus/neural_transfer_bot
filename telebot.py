@@ -5,7 +5,7 @@ from telebot import custom_filters
 from telebot.async_telebot import AsyncTeleBot
 import io
 import asyncio
-import style_model
+import model
 bot = telebot.TeleBot("YourTOKEN")
 content_img_bot = io.BytesIO()
 style_img_bot = io.BytesIO()
